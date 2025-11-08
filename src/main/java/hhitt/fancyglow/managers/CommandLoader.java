@@ -54,6 +54,7 @@ public final class CommandLoader {
                 )
 
                 .build();
+        liteCommands.unregister();
     }
 
     public void unregisterAll() {
